@@ -1,0 +1,122 @@
+body{
+    background-image: url('https://www.bhmpics.com/downloads/dark-and-stormy-night-wallpaper-/1.2355667.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#input_name{
+    width: 25%;
+    height: 2rem;
+    border-radius: 10px;
+    color:#2B2A4C;
+    background-color:#FAEED1;
+    font-size: 20px;
+    font-family: "Lugrasimo", cursive;
+    padding: 5px;
+    
+}
+
+#search{
+    min-width: 5%;
+    height: 3rem;
+    margin-left: 3%;
+    border-radius: 10px;
+    background-color: #2D9596;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+.results{
+    font-family: "Pacifico", cursive;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -7%;
+}
+
+.heading h1{
+   font-size: 60px;
+}
+
+.heading h4{
+    font-size: 30px;
+    margin-top: -5%;
+ }
+
+ .heading p{
+    font-size: 30px;
+    margin-top: -5%;
+    width: 130%;
+    text-align: center;
+ }
+ 
+
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+    color: white;
+   /* background: linear-gradient(to right,#1B1A55,#535C91);  */
+  
+    
+}
+
+.temp{
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+.temp h1{
+   font-size: 80px;
+}
+
+
+.temp_details{
+   font-size: 20px;
+   margin-top: -20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: -15%;
+}
+
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 10%;
+    font-weight: bolder;
+    gap: 5%;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.details p{
+    font-size: 40px;
+}
+
+.line{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
